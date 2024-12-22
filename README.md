@@ -49,10 +49,10 @@
 - **코스 추천 시스템**: 관광객의 선호도와 시간을 고려한 여행 코스 추천.
 
 ### 기술 스택:
-- **프론트엔드**: React, TypeScript
-- **백엔드**: Node.js, Express
-- **데이터베이스**: MongoDB
-- **배포**: AWS, Docker
+- **프론트엔드**: streamlit
+- **백엔드**: OpenAI API
+- **데이터베이스**: 
+- **배포**: 
 
 ![시스템 구조](https://via.placeholder.com/800x400)
 
@@ -61,6 +61,13 @@
 ## 실행 방법
 
 ### 1. 환경 설정
+
+0. **사전 요구사항**
+- Python 3.8 이상
+- Streamlit
+- OpenAI Python SDK
+
+
 1. **프로젝트 클론**
    ```bash
    git clone https://github.com/username/project.git
@@ -69,31 +76,29 @@
 
 2. **필요한 패키지 설치**
    ```bash
-   npm install
+   pip install --upgrade streamlit
+   pip install -r requirements.txt
    ```
 
 3. **환경 변수 설정**
    프로젝트 루트에 `.env` 파일을 생성하고 아래 내용을 추가:
    ```env
-   DB_URL=your_database_url
    API_KEY=your_api_key
    ```
 
 ### 2. 실행
 1. **개발 서버 실행**
    ```bash
-   npm run dev
+   streamlit run .\salvation.py
    ```
 
 2. **프로덕션 빌드** (선택 사항)
    ```bash
-   npm run build
-   npm start
    ```
 
 ### 3. 접속
    - 로컬에서: `http://localhost:3000`
-   - 배포된 서버: `https://your-deployed-site.com`
+   - 배포된 서버: `http://172.16.42.249:8501`
 ---
 
 감사합니다! 🙌
