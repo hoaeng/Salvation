@@ -90,8 +90,8 @@
 
 1. **프로젝트 클론**
    ```bash
-   git clone https://github.com/username/project.git
-   cd project
+   git clone https://github.com/hoaeng/Salvation.git
+   cd Salvation
    ```
 
 2. **필요한 패키지 설치**
