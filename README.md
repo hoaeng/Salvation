@@ -53,7 +53,7 @@
 - **프론트엔드**: streamlit
 - **백엔드**: openai
 
-![시스템 구조]https://youtu.be/AYbwc-zNOWA
+![시스템 구조](https://youtu.be/AYbwc-zNOWA)
 
 ---
 
