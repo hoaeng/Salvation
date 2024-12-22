@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c6adfb13-96de-4660-81eb-749b20e2259c)# 🌟 Salvation 팀 프로젝트 소개
+# 🌟 Salvation 팀 프로젝트 소개
 
 ![LoGo](https://github.com/gerrard8888/rfrf/blob/main/ss.png?raw=true)
 
@@ -53,7 +53,8 @@
 - **프론트엔드**: streamlit
 - **백엔드**: openai
 
-![시스템 구조](https://youtu.be/AYbwc-zNOWA)
+
+[![image](https://github.com/user-attachments/assets/c6adfb13-96de-4660-81eb-749b20e2259c)](https://youtu.be/AYbwc-zNOWA)
 
 ---
 
